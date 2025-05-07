@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electric Vehicle Recharge Bunk</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script defer src="app.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Electric Vehicle Recharge Bunk</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#address">Address</a></li>
+                <li><a href="./index.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="map">
+            <!-- Google Map and EV charging stations will be displayed here -->
+            <img src="./assets/images/p7.jpeg" alt="EV Charging Stations" class="map-image">
+        </div>
+    </main>
+
+        <main>
+        <div id="about">
+            <center><b><h2>About us</h2></b></center>
+            <p>Welcome to the Electric Vehicle Recharge Bunk. We provide convenient and efficient charging solutions for electric vehicles, helping to drive the future of sustainable transportation.</p>
+            <div class="about-images">
+                <img src="./assets/images/p4.jpg" alt="EV Bunk 1">
+                <img src="./assets/images/p5.jpeg" alt="EV Bunk 2">
+                <img src="./assets/images/p6.jpeg" alt="EV Bunk 3">
+            </div>
+        </div>
+       </main>
+
+       <main>
+        <div id="services">
+            <center><b><h2>Our Services</h2></b></center>
+
+         <ul type="circle" class="services-list">
+              <li>24/7 EV Charging Stations</li>
+             <li>Easy Booking and Scheduling</li>
+             <li>Real-time Slot Availability</li>
+             <li>Fast and Reliable Charging</li>
+        </ul>
+
+            <div class="service-images">
+                <img src="./assets/images/p1.jpeg" alt="Charging Service">
+                <img src="./assets/images/p2.jpeg" alt="Booking Service">
+                <img src="./assets/images/p3.jpeg" alt="Slot Availability">
+            </div>
+        </div>
+    </main>
+
+  <br><br><br><br>
+
+  <div>
+    <center><h2 id="address">ADDRESS</h2></center><br>
+    <center>
+        <h1>
+            No.26, 80ft main road , kastruri nagar <br>
+            nearby KR Pura ,Bangalore = 560100 <br>
+        </h1>
+    </center>
+</div>
+
+<br><br><br><br><br>
+
+
+    <footer>
+        <p>&copy; 2024 Electric Vehicle Recharge Bunk</p>
+    </footer>
+
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsbbYOGYSDKOjVcle_u9Sj3MXhGR6_6jc&callback=initMap"></script>
+</body>
+
+</html>

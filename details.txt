@@ -1,0 +1,15 @@
+1.  Initialize Firebase in Your Project : firebase init
+2. Deploy Your Web App ; After making your changes, you can deploy your web app to Firebase Hosting by running  : firebase deploy
+3. Open PowerShell as Administrator :  Change the Execution Policy: "Set-ExecutionPolicy RemoteSigned -Scope CurrentUser" 
+4. 1.3 Set Up Firebase Hosting (Optional for Now)
+Firebase Hosting will allow you to deploy your web application online.
+
+Navigate to Hosting:
+
+In the Firebase Console, click on "Build" in the left sidebar.
+Select "Hosting".
+Get Started with Hosting:
+
+Click on "Get started".
+Follow the instructions to set up Firebase Hosting. You’ll initialize Firebase Hosting in your local project later.
+
